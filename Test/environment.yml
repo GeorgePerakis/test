@@ -1,0 +1,38 @@
+---
+name: Test
+channels: [conda-forge, r, nodefaults]
+dependencies:
+  - r-plyr
+  - conda-lock
+  - ipykernel
+  - jupyterlab
+  - pandas
+  - phantomjs
+  - pip >=21.1
+  - plotly>=5.13.0
+  - pre-commit
+  - pytask-julia
+  - pytask-latex>=0.4.0
+  - pytask-parallel>=0.4.0
+  - pytask-r
+  - pytask>=0.4.0
+  - pytest
+  - pytest-cov
+  - pytest-xdist
+  - python-graphviz
+  - python=3.11
+  - pyyaml
+  - plotly-orca
+  - r-plotly
+  - r-processx
+  - r-reshape2
+  - r-reticulate
+  - r-webshot
+  - r-xtable
+  - setuptools_scm
+  - statsmodels
+  - toml
+  - estimagic
+  - nlopt
+  - fides
+  - pip: [-e ., kaleido, pdbp]
